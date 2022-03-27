@@ -15,11 +15,11 @@
   `https://github.com/vase_jmeno/prezencka`
 * V příkazové řádce přidejte do Gitu adresu Vašeho vzdáleného repozitáře.
   ```
-  git remote add upstream https://github.com/vase_jmeno/prezencka
+  git remote add vase_jmeno https://github.com/vase_jmeno/prezencka
   ```
 * Pošlete změny na Váš vzdálený repozitář.
   ```
-  git push upstream main
+  git push vase_jmeno main
   ```
 * Na stránce Vašeho repozitáře se nahoře objeví možnost <kbd>Contribute</kbd> a po rozkliknutí <kbd>Open pull request</kbd>.
   Otevřete tedy nový pull request, zkontrolujte popisek změny a pull request potvrďte <kbd>Create pull request</kbd>.
@@ -51,7 +51,7 @@ V souboru, který jste přidali do repozitáře prezencka, doplňte, jakou máte
 * Vytvořte novou revizi.
 * Pošlete změny do svého vzdáleného repozitáře.
   ```
-  git push upstream nazev_vetve
+  git push vase_jmeno nazev_vetve
   ```
 * Vytvořte pull request.
 * Po začlenění Vašich změn:
